@@ -1,4 +1,5 @@
 import Header from "./Components/Header/page";
+import BotaoFormulario from "./Components/BotaoFormulario/page";
 import "./Global.css"
 import type { Metadata } from "next";
 
@@ -16,6 +17,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
        <Header />
+       <BotaoFormulario />
     </html>
   );
 }
