@@ -1,9 +1,20 @@
+import Link from "next/link";
 import Image from "next/image";
-import ursoPrincipal from "../app/assets/ursoPrincipal.png";
 import "./principal.css";
+import ursoPrincipal from "../app/assets/ursoPrincipal.png";
 import pessoasComemorando from "./assets/unsplash_376KN_ISplE.png";
 import estrategiaDeNegocio from "./assets/unsplash_mpN7xjKQ_Ns.jpg";
-import Empresa from "./assets/unsplash_wD1LRb9OeEo.jpg"
+import Empresa from "./assets/unsplash_wD1LRb9OeEo.jpg";
+import UrsoCores from "./assets/image 24.png"
+import Servidor from "./assets/imagemdivuga.png"
+import ImagemFormula1 from "./assets/formula-1-logo.webp"
+import GeneralMills from "./assets/general-mills-logo.webp"
+import Amarante from "./assets/logo-grid-amarante-card-service.webp"
+import Engie from "./assets/logo-grid-engie-card-service.webp"
+import Inter from "./assets/logo-grid-inter-card-service.webp"
+import SulAmerica from "./assets/logo-grid-sulamerica-card-service.webp"
+import Vodafone from "./assets/logo-grid-vodafone-card-service.webp"
+import Santander from "./assets/santander-logo.webp"
 
 export default function Home() {
   return (
@@ -60,7 +71,89 @@ export default function Home() {
             </div>
 
             <Image className="bordaESombra imagem-grande-direita" src={estrategiaDeNegocio} alt="" />
+        </section>
 
+        <section className="principais-produtos">
+            <h2 className="titulo-principais-produtos">Principais Produtos <span className="nossas-funcionalidades">Nossas
+                    funcionalidades mais famosas!</span></h2>
+
+            <div className="produtos-principais">
+                <div className="sequencia-principais-produtos">
+                    <div className="produtos">
+                        <span className="numeros-produtos numero-um">01</span>
+                        <div className="texto-produtos">
+                            <h2>Social Media Marketing</h2>
+                            <p>Construa relações duradouras com as estratégias do marketing digital fundamentado em
+                                dados </p>
+                        </div>
+
+                    </div>
+
+                    <div className="produtos">
+                        <span className="numeros-produtos numero-dois">02</span>
+                        <div className="texto-produtos">
+                            <h2>Data Cloud da Salesforce</h2>
+                            <p>Cruze todos dados dos seus clientes nos diversos apps da Salesforce com o Data Cloud</p>
+                        </div>
+                    </div>
+
+                    <div className="produtos">
+                        <span className="numeros-produtos numero-tres">03</span>
+                        <div className="texto-produtos">
+                            <h2>Salesforce Commerce Cloud </h2>
+                            <p>Amplie o comércio com confiança na plataforma mais completa.. </p>
+                        </div>
+                    </div>
+                </div>
+                <Image className="imagem-urso" src={UrsoCores} alt="Imagem do urso com cores" />
+            </div>
+        </section>
+
+        <section className="ganhe-mentoria">
+            <div className="imagemDivulga">
+                <div className="imagemDivulgaTexto">
+                    <h2>Maior produtividade</h2>
+                    <p>Trazendo um diferencial da concorrência</p>
+                    <Link href="#">VER ESTRATÉGIAS</Link>
+                </div>
+            </div>
+        </section>
+
+        <section className="cards-empresa">
+            <h2>Trabalhando com <span className="empresas">empresas </span>do mundo todo</h2>
+            <div className="cards-parceiros">
+                <div className="cards-empresas">
+                    <Image src={Inter} alt="Imagem banco inter" />
+                </div>
+
+                <div className="cards-empresas">
+                    <Image src={SulAmerica} alt="Imagem SulAmerica" />
+                </div>
+
+                <div className="cards-empresas">
+                    <Image src={Engie} alt="Imagem  Engie" />
+                </div>
+
+                <div className="cards-empresas">
+                    <Image src={Vodafone} alt="Imagem  Vodafone" />
+                </div>
+
+                <div className="cards-empresas">
+                    <Image src={GeneralMills} alt="Imagem  General Mills" />
+                </div>
+
+                <div className="cards-empresas">
+                    <Image src={Santander} alt="Imagem  Banco Santander" />
+                </div>
+
+                <div className="cards-empresas">
+                    <Image src={Amarante} alt="Imagem Amarante" />
+                </div>
+
+                <div className="cards-empresas">
+                    <Image src={ImagemFormula1} alt="Imagem  Formula 1" />
+                </div>
+            </div>
         </section>
     </main>
   );

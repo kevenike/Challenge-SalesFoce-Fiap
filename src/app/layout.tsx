@@ -2,6 +2,7 @@ import Header from "./Components/Header/page";
 import BotaoFormulario from "./Components/BotaoFormulario/page";
 import "./Global.css";
 import type { Metadata } from "next";
+import Footer from "./Components/Footer/page";
 
 
 export const metadata: Metadata = {
@@ -19,6 +20,7 @@ export default function RootLayout({
        <Header />
        {children}
        <BotaoFormulario />
+       <Footer/>
     </html>
   );
 }
