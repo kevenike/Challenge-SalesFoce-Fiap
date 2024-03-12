@@ -1,6 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
-import Salesforce from "./../../../../public/assets/Logo-Sales.png"
 import "./Header.css";
 
 

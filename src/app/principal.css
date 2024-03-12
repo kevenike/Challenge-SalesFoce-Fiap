@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --cor-primaria: #3029D9;
+    --cor-secundaria: #ffffff;
+}
+
+.tituloMenu {
+    width: 100%;
+    padding-top: 90px;
+    background-color: var(--cor-primaria);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.texto-titulo {
+    width: 25%;
+    color: var(--cor-secundaria);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-titulo h1 {
+    font-size: 40px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.titulo-novo {
+    font-size: 110px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80%;
+}
+
+.texto-titulo p {
+    width: 100%;
+    margin-top: 10px;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    color: var(--cor-secundaria);
+}
+
+.botao-titulo {
+    margin-top: 30px;
+    border-style: none;
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    font-size: 20px;
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+
+.botao-titulo:hover {
+    background-color: #ddddddf3;
+}
+
+.imgTituloMenu {
+    width: 30%;
+    height: 450px;
+}
+
+.titulo-introducao {
+    margin-left: 40px;
+}
+
+.titulo-introducao h2 {
+    width: 30%;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+}
+
+.nossos-clientes {
+    color: var(--cor-primaria);
+}
+
+.titulo-introducao p {
+    width: 45%;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    color: #858585;
+}
+
+.introducao-card {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+}
+
+.card {
+    width: 30%;
+    height: 310px;
+    border-radius: 10px;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card h2 {
+    margin-top: 40px;
+    margin-left: 16px;
+    margin-bottom: px;
+    font-size: 4vh;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+}
+
+.card p {
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 2.6vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.card-meio {
+    width: 60%;
+    height: 20vh;
+    border-radius: 10px;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card-meio h2 {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 4vh;
+
+}
+
+.card-meio p {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 2vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+
+}
+
+.card-imagem-esquerda {
+    height: 100%;
+}
+
+.card-direita-imagem,
+.card-esquerda-imagem {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+}
+
+.card-direita {
+    width: 60%;
+    height: 150px;
+    border-radius: 10px;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-direita h2 {
+    margin-left: 5px;
+    font-size: 3.8vh;
+    font-family: "Roboto", sans-serif;
+}
+
+.card-direita p {
+    margin-top: 10px;
+    margin-left: 5px;
+    font-family: "Roboto", sans-serif;
+    font-size: 2vh;
+    font-weight: 300;
+}
+
+
+.cards-imagens {
+    display: flex;
+    flex-direction: column;
+
+    gap: 30px;
+}
+
+.bordaESombra {
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.498);
+}

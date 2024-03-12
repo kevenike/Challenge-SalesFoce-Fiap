@@ -1,5 +1,4 @@
-import "./BotaoFormulario.css";
-import Image from "next/image"; 
+import "./BotaoFormulario.css"
 
 
 
