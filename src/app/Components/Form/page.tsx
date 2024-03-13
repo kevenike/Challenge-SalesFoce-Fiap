@@ -3,7 +3,7 @@ import "./Formulario.css"
 const Form = () => {
     return (
         <>
-        <section className="formularioFixado ">
+        <section className="formularioFixado formOculto  ">
             <form className="fixado" action="">
                 <h2 className="legenda">Ganhe uma mentoria <span className="especializada">especializada</span></h2>
                 <div className="formulario-lead">

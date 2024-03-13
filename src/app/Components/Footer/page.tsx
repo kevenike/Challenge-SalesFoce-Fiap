@@ -46,6 +46,7 @@ const Footer = () => {
                         <h3>Siga a gente</h3>
                         <div className="redes-sociais">
                             <Link href="https://www.instagram.com/salesforce/">
+                                
                             </Link>
 
                             <Link href="https://www.facebook.com/salesforce">

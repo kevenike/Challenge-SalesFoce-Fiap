@@ -20,7 +20,7 @@
 }
 
 .texto-titulo {
-    width: 25%;
+    width: 50%;
     color: var(--cor-secundaria);
 
     display: flex;
@@ -28,7 +28,7 @@
 }
 
 .texto-titulo h1 {
-    font-size: 40px;
+    font-size: 60px;
     font-family: 'Archivo Black', sans-serif;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .texto-titulo p {
-    width: 100%;
+    width: 50%;
     margin-top: 10px;
     text-align: left;
     font-family: "Roboto", sans-serif;
@@ -51,7 +51,7 @@
 .botao-titulo {
     margin-top: 30px;
     border-style: none;
-    width: 100%;
+    width: 50%;
     height: 30px;
     border-radius: 10px;
     font-family: "Roboto", sans-serif;
@@ -59,7 +59,7 @@
 
     background-color: var(--cor-secundaria);
     color: var(--cor-primaria);
-    font-size: 20px;
+    font-size: 16px;
     transition: 1.5s;
     cursor: pointer;
 }
@@ -321,7 +321,7 @@
 
 .imagemDivulgaTexto {
     margin-top: 25px;
-    width: 30%;
+    width: 30%; 
     padding: 15px;
     display: flex;
     flex-direction: column;

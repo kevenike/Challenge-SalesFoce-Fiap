@@ -15,6 +15,7 @@ import Inter from "./assets/logo-grid-inter-card-service.webp"
 import SulAmerica from "./assets/logo-grid-sulamerica-card-service.webp"
 import Vodafone from "./assets/logo-grid-vodafone-card-service.webp"
 import Santander from "./assets/santander-logo.webp"
+import gif from "./assets/giphy.gif"
 
 export default function Home() {
   return (
@@ -29,7 +30,8 @@ export default function Home() {
                 <button className="botao-titulo">Saiba Mais!</button>
             </div>
 
-           <Image className="imgTituloMenu" src={ursoPrincipal} alt="ursoPrincipal" />
+            
+           <Image className="imgTituloMenu" src={gif} alt="ursoPrincipal" />
         </section>
 
         <section className="titulo-introducao">
