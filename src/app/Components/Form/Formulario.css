@@ -1,0 +1,93 @@
+ .formOculto {
+    display: none;
+}  
+
+
+.iconeFomulario:hover {
+    background-color: #032d60;
+    transform: scale(1.1);
+}
+
+.formularioFixado {
+    background-color: #ffffff;
+    max-width: 200px;
+    height: 300px;
+    padding: 40px;
+    z-index: 900;
+
+    border-radius: 20px;
+    border: 3px solid;
+    border-color: var(--cor-primaria);
+
+
+    position: fixed;
+    bottom: 1%;
+    right: 10px;
+
+}
+
+.fixado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.legenda {
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px;
+}
+
+.iconex {
+    cursor: pointer;
+}
+
+.especializada {
+    color: var(--cor-primaria);
+}
+
+.formulario-lead {
+    position: relative;
+    margin: 20px 0px;
+}
+
+.formulario-lead label {
+    position: absolute;
+    font-size: 13PX;
+    left: 0;
+    bottom: 5px;
+    transition: all 0.2s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 5px;
+    font-size: 10px;
+    outline: none;
+}
+
+form .formulario-lead .input:focus~label,
+form .formulario-lead .input:valid~label {
+    transform: translateY(-24px);
+    font-size: 10px;
+    color: #00b3ff;
+}
+
+.botaoFormularioFixado {
+    width: 40%;
+    padding: 10px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: var(--cor-primaria);
+    color: #fff;
+    cursor: pointer;
+    transition: 1.5s;
+}
+
+.botaoFormularioFixado:hover {
+    background-color: #0548f3;
+}

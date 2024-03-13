@@ -3,7 +3,7 @@ import "./BotaoFormulario.css"
 
 
 
-function IconeFormulario() {
+function BotaoFormulario() {
     return (
         <>
           <section className="botaoFomulario">
@@ -14,4 +14,4 @@ function IconeFormulario() {
         </>
     );
 }
-export default IconeFormulario
+export default BotaoFormulario;

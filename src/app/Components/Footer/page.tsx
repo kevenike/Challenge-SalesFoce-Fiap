@@ -1,5 +1,6 @@
 import Link from "next/link";
 import "./Footer.css"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
     return (
@@ -23,7 +24,7 @@ const Footer = () => {
                     <div className="conteudo">
                         <h3>Sobre</h3>
                         <Link href="">Quem somos</Link>
-                        <Link href="">Por que SalesForce</Link>
+                         <Link href="">Por que SalesForce</Link>
                         <Link href="">Aprendizado no Trailhead</Link>
                         <Link href="">Sobre Link SalesForce</Link>
                         <Link href="">Nosso Parceiros</Link>
@@ -42,10 +43,9 @@ const Footer = () => {
                     </div>
 
                     <div className="conteudo">
-                        <h3>Siga Link gente</h3>
+                        <h3>Siga a gente</h3>
                         <div className="redes-sociais">
                             <Link href="https://www.instagram.com/salesforce/">
-                                <i className="fa-brands fa-instagram"></i>
                             </Link>
 
                             <Link href="https://www.facebook.com/salesforce">

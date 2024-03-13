@@ -308,7 +308,7 @@
 }
 
 .imagemDivulga {
-    background-image: url('./assets/imagemdivuga.png');
+    background-image: url(/src/app/assets/imagemdivuga.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

@@ -110,7 +110,7 @@ export default function Home() {
         </section>
 
         <section className="ganhe-mentoria">
-            <div className="imagemDivulga">
+            <div className="imagemDivulga" >
                 <div className="imagemDivulgaTexto">
                     <h2>Maior produtividade</h2>
                     <p>Trazendo um diferencial da concorrência</p>
