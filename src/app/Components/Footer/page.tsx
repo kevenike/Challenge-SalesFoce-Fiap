@@ -1,6 +1,10 @@
 import Link from "next/link";
 import "./Footer.css"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FaInstagram } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -24,9 +28,9 @@ const Footer = () => {
                     <div className="conteudo">
                         <h3>Sobre</h3>
                         <Link href="">Quem somos</Link>
-                         <Link href="">Por que SalesForce</Link>
+                        <Link href="">Por que SalesForce</Link>
                         <Link href="">Aprendizado no Trailhead</Link>
-                        <Link href="">Sobre Link SalesForce</Link>
+                        <Link href="">Sobre a SalesForce</Link>
                         <Link href="">Nosso Parceiros</Link>
                         <Link href="">Blog</Link>
                         <Link href="">Comunidade</Link>
@@ -46,19 +50,19 @@ const Footer = () => {
                         <h3>Siga a gente</h3>
                         <div className="redes-sociais">
                             <Link href="https://www.instagram.com/salesforce/">
-                                
+                                <FaInstagram className="redes fa-instagram" />
                             </Link>
 
                             <Link href="https://www.facebook.com/salesforce">
-                                <i className="fa-brands fa-facebook"></i>
+                                <FaFacebook className="redes fa-facebook" />
                             </Link>
 
                             <Link href="https://www.linkedin.com/company/salesforce/">
-                                <i className="fa-brands fa-linkedin"></i>
+                                <FaLinkedin className="redes fa-linkedin" />
                             </Link>
 
                             <Link href="https://www.youtube.com/@SalesforceBrasil">
-                                <i className="fa-brands fa-youtube"></i>
+                                <FaYoutube className="redes fa-youtube" />
                             </Link>
                         </div>
                     </div>

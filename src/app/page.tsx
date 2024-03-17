@@ -1,21 +1,21 @@
 import Link from "next/link";
 import Image from "next/image";
 import "./principal.css";
-import ursoPrincipal from "../app/assets/ursoPrincipal.png";
 import pessoasComemorando from "./assets/unsplash_376KN_ISplE.png";
 import estrategiaDeNegocio from "./assets/unsplash_mpN7xjKQ_Ns.jpg";
 import Empresa from "./assets/unsplash_wD1LRb9OeEo.jpg";
-import UrsoCores from "./assets/image 24.png"
-import Servidor from "./assets/imagemdivuga.png"
-import ImagemFormula1 from "./assets/formula-1-logo.webp"
-import GeneralMills from "./assets/general-mills-logo.webp"
-import Amarante from "./assets/logo-grid-amarante-card-service.webp"
-import Engie from "./assets/logo-grid-engie-card-service.webp"
-import Inter from "./assets/logo-grid-inter-card-service.webp"
-import SulAmerica from "./assets/logo-grid-sulamerica-card-service.webp"
-import Vodafone from "./assets/logo-grid-vodafone-card-service.webp"
-import Santander from "./assets/santander-logo.webp"
-import gif from "./assets/giphy.gif"
+import UrsoCores from "./assets/image 24.png";
+import Servidor from "./assets/imagemdivuga.png";
+import ImagemFormula1 from "./assets/formula-1-logo.webp";
+import GeneralMills from "./assets/general-mills-logo.webp";
+import Amarante from "./assets/logo-grid-amarante-card-service.webp";
+import Engie from "./assets/logo-grid-engie-card-service.webp";
+import Inter from "./assets/logo-grid-inter-card-service.webp";
+import SulAmerica from "./assets/logo-grid-sulamerica-card-service.webp";
+import Vodafone from "./assets/logo-grid-vodafone-card-service.webp";
+import Santander from "./assets/santander-logo.webp";
+import gif from "./assets/giphy.gif";
+
 
 export default function Home() {
   return (

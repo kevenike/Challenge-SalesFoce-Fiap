@@ -1,4 +1,4 @@
-import "./BotaoFormulario.css"
+import "./BotaoFormulario.css";
 
 
 
@@ -9,8 +9,6 @@ function BotaoFormulario() {
           <section className="botaoFomulario">
                 <h2>Contato</h2>
           </section>  
-
-          
         </>
     );
 }
