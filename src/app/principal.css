@@ -76,12 +76,12 @@
 }
 
 .titulo-introducao {
-    margin-left: 40px;
+    margin-left: 150px;
     margin-top: 20px;
 }
 
 .titulo-introducao h2 {
-    width: 35%;
+    width: 40%;
     font-size: 47px;
     font-family: "Roboto", sans-serif;
 }
@@ -91,7 +91,7 @@
 }
 
 .titulo-introducao p {
-    width: 43%;
+    width: 46%;
     font-size: 25px;
     font-family: "Roboto", sans-serif;
     margin-top: 10px;
@@ -99,46 +99,46 @@
 }
 
 .introducao-card {
-    margin-top: 50px;
+    margin-top: 100px;
     display: flex;
     flex-direction: row;
-    padding: 40px;
+    justify-content: center;
+    gap: 50px;
 }
 
 .card {
     width: 20%;
-    height: 370px;
-    border-radius: 10px;
+    height: 450px;
+    border-radius: 20px;
     color: var(--cor-secundaria);
     background-color: var(--cor-primaria);
-
+   
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 30px;
 }
 
 .card h2 {
-    width: 100%;
     margin-top: 40px;
     margin-left: 16px;
-
     font-size: 4vh;
     font-weight: 700;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto";
 }
 
 .card p {
     margin-left: 10px;
     margin-top: 10px;
     text-align: left;
-    font-size: 2.6vh;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
+    font-size: 2.5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
 }
 
 .card-meio {
-    width: 60%;
-    height: 20vh;
+    width: 100%;
+    height: 200px;
     border-radius: 10px;
     color: var(--cor-secundaria);
     background-color: var(--cor-primaria);
@@ -150,21 +150,27 @@
 .card-meio h2 {
     margin-top: 10px;
     margin-left: 10px;
-    font-family: "Roboto", sans-serif;
-    font-size: 4vh;
+    font-family: "Roboto";
+    font-size: 28px;
 
 }
 
 .card-meio p {
     margin-top: 10px;
     margin-left: 10px;
-    font-size: 2vh;
-    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-family: "Roboto";
     font-weight: 300;
 
 }
 
+
 .card-imagem-esquerda {
+    height: 100%;
+}
+
+.imagem-card-da-direita{
+    width: 20%;
     height: 100%;
 }
 
@@ -172,46 +178,50 @@
 .card-esquerda-imagem {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-
-}
-
-.imagem-grande-direita {
-    height: 380px;
+    align-items: flex-end;
+    gap: 20px;
 }
 
 .card-direita {
-    width: 60%;
-    height: 160px;
-    border-radius: 10px;
+    width: 80%;
+    height: 200px;
+    border-radius: 20px;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
 
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 .card-direita h2 {
     margin-left: 5px;
-    font-size: 3.8vh;
-    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    font-family: "Roboto";
 }
 
 .card-direita p {
     margin-top: 10px;
     margin-left: 5px;
-    font-family: "Roboto", sans-serif;
-    font-size: 2vh;
+    font-family: "Roboto";
+    font-size: 20px;
     font-weight: 300;
 }
 
 
 .cards-imagens {
+    width: 50%;
     display: flex;
     flex-direction: column;
 
-    gap: 30px;
+    gap: 50px;
+}
+
+
+.imagem-grande-direita{
+    width: 164px;
+    height: 459px;
 }
 
 /* .bordaESombra {
@@ -366,6 +376,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
 
     padding: 50px;
 }

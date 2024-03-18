@@ -21,6 +21,7 @@ export default function Home() {
   return (
     <main>
       <section className="tituloMenu">
+        
             <div className="texto-titulo">
                 <h1>EXPLORE O <strong className="titulo-novo">NOVO</strong></h1>
                 <p>Cada pixel, cada detalhe, foi meticulosamente reconstruído para oferecer uma experiência envolvente e
@@ -43,7 +44,7 @@ export default function Home() {
         </section>
 
         <section className="introducao-card">
-            <div className="card cardMobile bordaESombra cardCorBranca">
+            <div className="card cardMobile cardCorBranca">
                 <h2>Newsletter: o que é e como criar?</h2>
                 <p>Você recebe algumas dezenas de newsletter por semana, né? E não à toa: a estratégia promete
                     qualificação de leads e mais conversões para o seu negócio....</p>
@@ -53,7 +54,9 @@ export default function Home() {
                 <div className="card-esquerda-imagem cardMobile ">
                     <div className="card-meio cardMobile bordaESombra">
                         <h2>Como impulsionar suas vendas no final do ano com Salesforce</h2>
-                        <p>O final do ano está chegando e é o momento ideal para alavancar suas vendas aproveitando.</p>
+                        <p>
+                            O final do ano está chegando e é o momento ideal para alavancar suas vendas aproveitando as tendências e insights do varejo. Neste artigo, exploraremos como você pode utilizar as soluções Salesforce para potencializar suas estratégias de vendas durante a Cyber Week.
+                        </p>
                     </div>
 
                     <Image className="card-imagem-esquerda bordaESombra" src={Empresa} alt="" />
@@ -63,16 +66,16 @@ export default function Home() {
                 <div className="card-direita-imagem cardMobile ">
                     <Image className="imagem-card-da-direita bordaESombra" src={pessoasComemorando} alt="" />
 
-                    <div className="card-direita bordaESombra cardCorBranca">
+                    <div className="card-direita cardCorBranca">
                         <h2>Apagão na distribuição de Energia como a Salesforce pode ajudar?</h2>
-                        <p>Explore a revolução tecnológica na gestão de crises no setor de energia. Casos reais e
-                            soluções inovadoras para uma resposta transparente e ágil.</p>
+                        <p>
+                            Apagão na distribuição de Energia: como a Salesforce pode ajudar? A organização está usando as soluções da nossa nuvem em seus negócios na Nova Geração (NGR).
+                        </p>
                     </div>
-                </div>
-
+                </div>       
             </div>
-
-            <Image className="bordaESombra imagem-grande-direita" src={estrategiaDeNegocio} alt="" />
+            
+            <Image className="imagem-grande-direita" src={estrategiaDeNegocio} alt="" />
         </section>
 
         <section className="principais-produtos">
