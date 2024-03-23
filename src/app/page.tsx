@@ -19,7 +19,7 @@ import gif from "./assets/giphy.gif";
 
 export default function Home() {
   return (
-    <main>
+    <main className="containerPrincipal">
       <section className="tituloMenu">
         
             <div className="texto-titulo">
@@ -106,7 +106,7 @@ export default function Home() {
                         <span className="numeros-produtos numero-tres">03</span>
                         <div className="texto-produtos">
                             <h2>Salesforce Commerce Cloud </h2>
-                            <p>Amplie o comércio com confiança na plataforma mais completa.. </p>
+                            <p>Amplie o comércio com confiança na platafoarma mais completa.. </p>
                         </div>
                     </div>
                 </div>

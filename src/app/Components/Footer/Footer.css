@@ -17,13 +17,13 @@
 }
 
 .rodape-conteudo h3 {
-    font-family: "Archivo";
+    font-family: "Archivo", sans-serif;
     font-size: 20px;
 }
 
 .rodape-conteudo a {
     text-decoration: none;
-    font-family: "Archivo";
+    font-family: "Archivo", sans-serif;
     color: #858585;
     font-size: 15px;
     font-weight: 700;
