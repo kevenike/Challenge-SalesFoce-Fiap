@@ -3,6 +3,7 @@ import Image from "next/image";
 import UrsoNoPc from "../../assets/ursonopc (1).gif"
 import TrablheCosco from "../../assets/imagemtrabalheconosco.jpg"
 import SocialOMundoVaiMudar from "../../assets/imagemsocialomundovaimudar.png"
+import ImagemDusMaos from "../../assets/image 33.png"
 
 const QuemSomos = () => {
     return (
@@ -73,6 +74,21 @@ const QuemSomos = () => {
                         <p className="paragrafo-social-mundo-vai-mudar">
                             Tão certo quanto o nascer do sol, haverá novas tecnologias, novas tendências sociais, novas coisas que importam agora. Mas o cliente ainda será o cliente. Perspicaz. Exigente. Ansioso para ser surpreendido. Nosso objetivo é ajudá-lo a encontrá-los onde quer que estejam, para que permaneçam sempre leais à sua empresa, aconteça o que acontecer.
                         </p>
+                    </div>
+                </div>
+            </section>
+
+            <section className="social-redefinir">
+                <div className="container-social-redefinir">
+                    <div className="texto-redefinir">
+                        <h2 className="titulo-social-redefinir">Social</h2>
+                        <h3 className="reunir-passoas">Reunir pessoas muda tudo.</h3>
+                        <p className="paragrafo-desde-o-inicio">
+                            Desde o início, a Salesforce procurou mudar o mundo para melhor através da tecnologia que cria relacionamentos mais fortes. Entre empresas e seus clientes. Entre funcionários e equipes distantes. Entre governos e seus cidadãos. Entre as pessoas que querem fazer a diferença.
+                        </p>
+                    </div>
+                    <div className="imagem-social-redefinir">
+                        <Image className="imagem-das-maos" src={ImagemDusMaos} alt="imagem duas maos" />
                     </div>
                 </div>
             </section>
