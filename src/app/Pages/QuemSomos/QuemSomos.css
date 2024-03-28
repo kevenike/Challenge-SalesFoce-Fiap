@@ -242,3 +242,33 @@
     display: flex;
     justify-content: center;
 }
+
+@media (width: 1024px) {
+    .paragrafo-introducao-quemsomos{
+        width: 55%;
+    }
+
+    .card-quemsomos {
+        width: 25%;
+        height: 250px;
+    }
+
+    .card-quemsomos p {
+        width: 100%;
+        font-size: 15px;
+    }
+
+   .container-profissional{
+        padding: 30px;
+   }
+
+   .profissional-capacitados h2 {
+        width: 70%;
+        font-size: 30px;
+    }
+    
+    .profissional-capacitados p {
+        width: 80%;
+    }
+    
+}

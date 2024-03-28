@@ -1,10 +1,12 @@
 import Link from "next/link";
 import "./Footer.css"
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import Image from "next/image";
+import LogoSalesForce from "../../assets/Logo-Sales.png"
+import LogoFiap from "../../assets/Logo Fiap.png"
 
 const Footer = () => {
     return (
@@ -66,6 +68,30 @@ const Footer = () => {
                             </Link>
                         </div>
                     </div>
+                </div>
+
+                <div className="container-segundo-rodape">
+                    <div className="segundo-rodape-conteudo">
+                        <div className="conteudo-rodape">
+                            <Link href="">FIAP & Salesforce 2023.
+                                Todos os direitos reservados.</Link>
+                        </div>
+
+                        <div className="conteudo-rodape">
+                            <Link href="">Sobre as Novidades do que incluímos no Portal</Link>
+                        </div>
+
+                        <div className="conteudo-rodape">
+                            <Link href="">Documentação da nossa nova proposta</Link>
+                        </div>
+
+                        <div className="conteudo-rodape">
+                            <Link href="">Newsletter</Link>
+                        </div>
+                        <Link href="/"><Image className="logo-salesforce" src={LogoSalesForce} alt="" /></Link>
+
+                    </div>
+                    <Link href="https://www.fiap.com.br/" className="logo-fiap"><Image src={LogoFiap} alt="logo fiap" /></Link>
                 </div>
             </footer>
         </>

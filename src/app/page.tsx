@@ -21,7 +21,6 @@ export default function Home() {
   return (
     <main className="containerPrincipal">
       <section className="tituloMenu">
-        
             <div className="texto-titulo">
                 <h1>EXPLORE O <strong className="titulo-novo">NOVO</strong></h1>
                 <p>Cada pixel, cada detalhe, foi meticulosamente reconstruído para oferecer uma experiência envolvente e
@@ -32,7 +31,7 @@ export default function Home() {
             </div>
 
             
-           <Image className="imgTituloMenu" src={gif} alt="ursoPrincipal" />
+           <Image className="imgTituloMenu" src={gif} alt="ursoPrincipal" priority />
         </section>
 
         <section className="titulo-introducao">
@@ -55,7 +54,7 @@ export default function Home() {
                     <div className="card-meio cardMobile bordaESombra">
                         <h2>Como impulsionar suas vendas no final do ano com Salesforce</h2>
                         <p>
-                            O final do ano está chegando e é o momento ideal para alavancar suas vendas aproveitando as tendências e insights do varejo. Neste artigo, exploraremos como você pode utilizar as soluções Salesforce para potencializar suas estratégias de vendas durante a Cyber Week.
+                        O final do ano está chegando e é o momento ideal para alavancar suas vendas aproveitando [...]
                         </p>
                     </div>
 

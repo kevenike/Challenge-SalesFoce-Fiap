@@ -38,7 +38,7 @@ const QuemSomos = () => {
             <section className="profissional">
                 <div className="container-profissional">
                     <div className="profissional-capacitados">
-                        <h2>
+                        <h2 className="titulo-profissionais">
                             Profissionais  <span className="capacitados">Capacitados</span> para Seu Negócio
                         </h2>
                         <p>Esteja você programando nossa próxima inovação em IA ou impulsionando o sucesso de nossos clientes, você encontrará aqui sua opção em uma de nossas equipes de alto desempenho. na Salesforce você encontrará a oportunidade perfeita em uma de nossas equipes de alto desempenho. </p>
@@ -46,7 +46,7 @@ const QuemSomos = () => {
                     </div>
 
                     <div className="conteudo-profissional">
-                        <Image src={UrsoNoPc} alt="gif do urso no pc"/>
+                        <Image className="gif-do-urso-no-pc" src={UrsoNoPc} alt="gif do urso no pc"/>
                     </div>
                 </div>
 
