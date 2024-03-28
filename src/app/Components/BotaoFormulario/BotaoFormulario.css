@@ -31,3 +31,26 @@
     background-color: #032d60;
     transform: scale(1.1);
 }
+
+@media (width <= 425px) {
+
+    .botaoFomulario {
+        width: 20%;
+    }
+}
+
+@media (width: 768px) {
+
+    .botaoFomulario {
+        width: 15%;
+    }
+}
+
+@media (width: 1024px) {
+
+    .botaoFomulario {
+        width: 10%;
+    }
+}
+
+

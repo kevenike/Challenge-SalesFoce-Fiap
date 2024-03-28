@@ -53,7 +53,6 @@
 }
 
 .container-cards-quemsomos {
-    height: 300px;
     margin-top: 70px;
     display: flex;
     justify-content: center;
@@ -63,6 +62,7 @@
 
 .card-quemsomos {
     width: 20%;
+    height: 300px;
     border-radius: 14px;
     padding: 15px;
     background-color: #ddd;
@@ -83,17 +83,20 @@
     background-color: #F5F6FA;
     padding-top: 20px;
     margin-top: 70px;
-}
-
-.container-profissional {
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
 }
 
+.container-profissional {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
 .profissional-capacitados {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -270,5 +273,118 @@
     .profissional-capacitados p {
         width: 80%;
     }
+
+    .container-profissional{
+        width: 100%;
+    }
+
+    .container-beneficios-trabalhe {
+        width: 100%;
+    }
+
+    .imagem-trabalhe-conosco {
+        width: 60%;
+    }
+
+    .de-seu-melhor {
+        width: 90%;
+    }
+
+    .paragrafo-trabalhe-conosco {
+        width: 90%;
+    }
+
+    .texto-social-mundo-vai-mudar {
+        width: 100%;
+    }
+
+    .o-mundo-vai-mudar {
+        width: 90%;
+    }
+
+    .texto-redefini {
+        width: 100%;
+    }
+
+    .reunir-passoas {
+        width: 80%;
+    }
+
+    .paragrafo-desde-o-inicio {
+        width: 85%;
+    }
     
+}
+
+@media (width: 768px) {
+    .paragrafo-introducao-quemsomos{
+        width: 68%;
+    }
+
+   .container-cards-quemsomos {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   }
+
+   .card-quemsomos {
+        width: 70%;
+        height: 150px;
+   }
+
+   .container-profissional {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .profissional-capacitados h2 {
+    width: 70%;
+   }
+
+   .profissional-capacitados p {
+    width: 100%;
+   }
+
+
+   .container-beneficios-trabalhe {
+    display: flex;
+    flex-direction: column-reverse;
+
+   }
+
+   .titulo-trabalhe-conosco {
+       width: 80%;
+      
+   }
+
+
+   .titulo-trabalhe-conosco h3{
+        width: 90%;
+   }
+
+   .titulo-trabalhe-conosco p {
+     width: 100%;
+   }
+
+   .container-social-mundo-vai-mudar {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .texto-social-mundo-vai-mudar {
+     width: 70%;
+   }
+
+   .o-mundo-vai-mudar {
+     width: 100%;
+   }
+
+   .paragrafo-social-mundo-vai-mudar {
+    width: 100%;
+   }
+
+   .texto-redefinir {
+    width: 100%;
+   }
 }
