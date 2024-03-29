@@ -329,7 +329,7 @@
     }
 }
 
-@media (width: 768px) {
+@media (width: 768px) and (orientation: landscape) {
     
     .card-texto-equipe {
         display: flex;

@@ -2,25 +2,6 @@
     background-color: #fff;
 }
 
-.links-de-navegacao .link-cor-preta {
-    color: #010216;
-}
-
-.link-cor-preta::after {
-    background: #010216;
-    content: "";
-    display: block;
-    height: 2px;
-    left: 0;
-    transition: all .4s ease;
-    width: 0px;
-}
-
-.link-cor-preta:hover::after {
-    width: 70%;
-}
-
-
 .container-quemsomos{
     padding-top: 100px;
 }
