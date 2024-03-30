@@ -58,7 +58,7 @@
     width: 100%;
     border: none;
     border-bottom: 2px solid #ccc;
-    padding: 10px;
+    padding: 5px;
     font-size: 20px;
     outline: none;
 }
@@ -66,13 +66,13 @@
 form .formulario-lead .input:focus~label,
 form .formulario-lead .input:valid~label {
     transform: translateY(-28px);
-    font-size: 20px;
+    font-size: 15px;
     color: #00b3ff;
 }
 
 .botaoFormularioFixado {
     width: 70%;
-    padding: 20px;
+    padding: 10px;
     border-style: none;
     border-radius: 50px;
     background-color: var(--cor-primaria);
@@ -88,13 +88,14 @@ form .formulario-lead .input:valid~label {
 
 @keyframes fadeIn {
     from {
-       opacity: 0;
+        opacity: 0;
     }
+
     to {
-       opacity: 1;
+        opacity: 1;
     }
-   }
-   
-   .formularioFixado {
+}
+
+.formularioFixado {
     animation: fadeIn 1s ease-in-out;
-   }
+}

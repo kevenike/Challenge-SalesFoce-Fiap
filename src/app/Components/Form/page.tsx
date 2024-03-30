@@ -16,7 +16,7 @@ const Form = ({ isVisible, onClose }: FormProps) => {
 
     return (
         <>
-        <section className={`formularioFixado ${isVisible ? '' : 'formOculto'}`}>
+        <section className={`formularioFixado ${isVisible ? '' : 'formOculto'}` } >
             <FaXmark className="iconex" onClick={handleClose}/>
             <form className="fixado" action="">
                 <h2 className="legenda">Ganhe uma mentoria <span className="especializada">especializada</span></h2>
