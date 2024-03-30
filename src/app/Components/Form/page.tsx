@@ -1,9 +1,23 @@
 import "./Formulario.css"
+import { FaXmark } from "react-icons/fa6";
 
-const Form = () => {
+interface FormProps {
+    isVisible: boolean;
+    onClose?: () => void; 
+}
+
+const Form = ({ isVisible, onClose }: FormProps) => {
+
+    const handleClose = () => {
+        if (onClose) { 
+            onClose(); 
+        }
+    };
+
     return (
         <>
-        <section className="formularioFixado formOculto  ">
+        <section className={`formularioFixado ${isVisible ? '' : 'formOculto'}`}>
+            <FaXmark className="iconex" onClick={handleClose}/>
             <form className="fixado" action="">
                 <h2 className="legenda">Ganhe uma mentoria <span className="especializada">especializada</span></h2>
                 <div className="formulario-lead">

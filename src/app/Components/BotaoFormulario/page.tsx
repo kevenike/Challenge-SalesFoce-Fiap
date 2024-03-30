@@ -1,15 +1,15 @@
-import "./BotaoFormulario.css";
+import "../BotaoFormulario/BotaoEstilo.css";
 
+interface BotaoFormularioProps {
+  onClick: () => void; 
+}
 
-
-
-function BotaoFormulario() {
+function BotaoFormulario({ onClick }: BotaoFormularioProps) {
     return (
-        <>
-          <section className="botaoFomulario">
-                <h2>Contato</h2>
-          </section>  
-        </>
+        <section className="botaoFormulario" onClick={onClick}>
+            <h2>Contato</h2>
+        </section>
     );
 }
+
 export default BotaoFormulario;

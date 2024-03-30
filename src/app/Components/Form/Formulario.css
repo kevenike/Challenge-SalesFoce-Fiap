@@ -1,17 +1,7 @@
- .formOculto {
-    display: none;
-}  
-
-
-.iconeFomulario:hover {
-    background-color: #032d60;
-    transform: scale(1.1);
-}
-
 .formularioFixado {
     background-color: #ffffff;
-    max-width: 200px;
-    height: 300px;
+    max-width: 400px;
+    height: 600px;
     padding: 40px;
     z-index: 900;
 
@@ -34,13 +24,16 @@
 
 .legenda {
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px 0px;
 }
 
 .iconex {
     cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .especializada {
@@ -49,45 +42,59 @@
 
 .formulario-lead {
     position: relative;
-    margin: 20px 0px;
+    margin: 30px 0px;
 }
 
 .formulario-lead label {
     position: absolute;
-    font-size: 13PX;
     left: 0;
-    bottom: 5px;
+    bottom: 10px;
     transition: all 0.2s;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 
 .input {
     width: 100%;
     border: none;
     border-bottom: 2px solid #ccc;
-    padding: 5px;
-    font-size: 10px;
+    padding: 10px;
+    font-size: 20px;
     outline: none;
 }
 
 form .formulario-lead .input:focus~label,
 form .formulario-lead .input:valid~label {
-    transform: translateY(-24px);
-    font-size: 10px;
+    transform: translateY(-28px);
+    font-size: 20px;
     color: #00b3ff;
 }
 
 .botaoFormularioFixado {
-    width: 40%;
-    padding: 10px;
+    width: 70%;
+    padding: 20px;
     border-style: none;
-    border-radius: 10px;
+    border-radius: 50px;
     background-color: var(--cor-primaria);
     color: #fff;
     cursor: pointer;
+    font-size: 20px;
     transition: 1.5s;
 }
 
 .botaoFormularioFixado:hover {
     background-color: #0548f3;
 }
+
+@keyframes fadeIn {
+    from {
+       opacity: 0;
+    }
+    to {
+       opacity: 1;
+    }
+   }
+   
+   .formularioFixado {
+    animation: fadeIn 1s ease-in-out;
+   }
