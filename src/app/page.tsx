@@ -5,7 +5,6 @@ import pessoasComemorando from "./assets/unsplash_376KN_ISplE.png";
 import estrategiaDeNegocio from "./assets/unsplash_mpN7xjKQ_Ns.jpg";
 import Empresa from "./assets/unsplash_wD1LRb9OeEo.jpg";
 import UrsoCores from "./assets/image 24.png";
-import Servidor from "./assets/imagemdivuga.png";
 import ImagemFormula1 from "./assets/formula-1-logo.webp";
 import GeneralMills from "./assets/general-mills-logo.webp";
 import Amarante from "./assets/logo-grid-amarante-card-service.webp";

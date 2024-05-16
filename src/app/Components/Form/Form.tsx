@@ -6,7 +6,7 @@ interface FormProps {
     onClose?: () => void; 
 }
 
-const Form = ({ isVisible, onClose }: FormProps) => {
+const Form: React.FC<FormProps> = ({ isVisible, onClose }) =>  {
 
     const handleClose = () => {
         if (onClose) { 
