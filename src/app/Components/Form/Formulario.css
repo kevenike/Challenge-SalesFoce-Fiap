@@ -2,7 +2,7 @@
     background-color: #ffffff;
     max-width: 400px;
     height: 600px;
-    padding: 40px;
+    padding: 20px;
     z-index: 900;
 
     border-radius: 20px;
@@ -55,13 +55,16 @@
 
 
 .input {
-    width: 100%;
+    width: calc(100% - 16px); /* Reduzindo a largura para 100% menos o padding */
+    max-width: 350px; /* Definindo uma largura máxima para o input */
+    height: 10px;
     border: none;
     border-bottom: 2px solid #ccc;
-    padding: 5px;
-    font-size: 20px;
+    padding: 8px;
+    font-size: 18px;
     outline: none;
 }
+
 
 form .formulario-lead .input:focus~label,
 form .formulario-lead .input:valid~label {

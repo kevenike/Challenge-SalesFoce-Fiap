@@ -19,14 +19,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <body>
-      <Header />
-      <Providers>
-      {children}
-      </Providers>
-      <ContatoPage />
-      <Footer />
+        <Header />
+        <Providers>
+          {children}
+        </Providers>
+        <ContatoPage />
+        <Footer />
       </body>
     </html>
   );

@@ -35,6 +35,16 @@ const Form = ({ isVisible, onClose }: FormProps) => {
                         <label htmlFor="telefone">Seu Telefone</label>
                 </div>
 
+                <div className="formulario-lead">
+                    <input className="input" type="tel" id="cidade" required />
+                        <label htmlFor="cidade">Sua Cidade</label>
+                </div>
+                
+                <div className="formulario-lead">
+                    <input className="input" type="tel" id="cep" required />
+                        <label htmlFor="cep">Seu Cep</label>
+                </div>
+
                 <button className="botaoFormularioFixado">Enviar</button>
             </form>
         </section>
