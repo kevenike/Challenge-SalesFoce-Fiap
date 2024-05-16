@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import BotaoFormulario from '../BotaoFormulario/page';
-import Form from '../Form/page';
+import Form from '../Form/Form';
 import '../BotaoFormulario/BotaoEstilo.css';
 
 function ComponentePai() {
